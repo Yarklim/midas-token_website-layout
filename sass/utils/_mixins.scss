@@ -1,6 +1,10 @@
 // Mixins
 
-@mixin section ($pt: 60px, $pb: 60px) {
+@mixin section ($pt: 40px, $pb: 20px) {
 	padding-top: $pt;
 	padding-bottom: $pb;
+
+	background: #0A0C0F;
+	
+	border-radius: 64px;
 }

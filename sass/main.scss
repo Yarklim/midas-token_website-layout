@@ -1,8 +1,7 @@
 // utils styles
 @import './utils/vars';
-@import './utils/visually-hidden';
+@import './utils/visually--hidden';
 @import './utils/mixins';
-@import './utils/placeholders';
 
 // base styles
 @import './base/common';
@@ -16,7 +15,6 @@
 @import './components/menu';
 @import './components/buttons';
 @import './components/modal';
-@import './components/registration-form';
 @import './components/subscribe-form.scss';
 @import './components/socials';
 
