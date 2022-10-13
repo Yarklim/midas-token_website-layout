@@ -1,67 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Midas Token</title>
-	<link rel="shortcut icon" type="image/png" href="./img/favicon.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;900&family=Open+Sans:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
-	<!-- Header -->
-		<!-- Header Info -->
-	<header class="container header">
-		<div class="header__info">
-			<p class="info__text">Delisting announcement. 12 DeFi and Masternode assets will be delisted. Withdraw by March 31.</p>
-			<a class="info__link" href="#" target="_blank" rel="noopener noreferrer">Read more</a>
-			<button class="info__btn">
-				<svg class="info__btn--close" width="34" height="34">
-					<use href="./img/icons/icons.svg#close"></use>
-				</svg>
-			</button>
-		</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Midas Token</title>
+        <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;900&family=Open+Sans:wght@600&family=Roboto:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/main.min.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <!-- Header Info -->
+        <header class="container header">
+            <div class="header__info">
+                <p class="info__text">
+                    Delisting announcement. 12 DeFi and Masternode assets will
+                    be delisted. Withdraw by March 31.
+                </p>
+                <a
+                    class="info__link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Read more</a
+                >
+                <button class="info__btn">
+                    <svg class="info__btn--close" width="34" height="34">
+                        <use href="./img/icons/icons.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
 
-		<nav class="header__nav nav">
-			<!-- Logo -->
-			<a href="./index.html" class="nav__logo logo">
-				<svg class="logo__img" width="68" height="44">
-					<use href="./img/icons/icons.svg#midas"></use>
-				</svg>
-			</a>
+            <nav class="header__nav nav">
+                <!-- Logo -->
+                <a href="./index.html" class="nav__logo logo">
+                    <svg class="logo__img" width="68" height="44">
+                        <use href="./img/icons/icons.svg#midas"></use>
+                    </svg>
+                </a>
 
-			<!-- Navigation -->
-			<ul class="nav__list">
-				<li class="nav__item"><a href="#platform" class="nav__link">Platform</a></li>
-				<li class="nav__item"><a href="#midas-coin" class="nav__link">Midas Coin</a></li>
-				<li class="nav__item"><a href="#yaps" class="nav__link">YAPs</a></li>
-				<li class="nav__item"><a href="#resources" class="nav__link">Resources</a></li>
-			</ul>
+                <!-- Navigation -->
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#platform" class="nav__link">Platform</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#midas-coin" class="nav__link">Midas Coin</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#yaps" class="nav__link">YAPs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#resources" class="nav__link">Resources</a>
+                    </li>
+                </ul>
 
-			<!-- Subscribe -->
-			<a class="nav__subscribe" href="#">Subscribe</a>
-		</nav>
-	</header>
-	
-	<!-- Main -->
-	<main>
-		<!-- Hero -->
-		<section class="container hero">
-			<h1 class="hero__title">
-				Unlock the full potential of Midas ecosystem
-			</h1>
-			<strong class="hero__subtitle">
-				Buy 
-				<span class="mob--hidden">midas</span> 
-				token
-			</strong>
+                <!-- Subscribe -->
+                <a class="nav__subscribe" href="#">Subscribe</a>
+            </nav>
+        </header>
 
-			<ul class="hero__cards"></ul>
-		</section>
-	</main>
-</body>
+        <!-- Main -->
+        <main>
+            <!-- Hero -->
+            <section class="container hero">
+                <h1 class="hero__title">
+                    Unlock the full potential of Midas ecosystem
+                </h1>
+                <strong class="hero__subtitle">
+                    Buy
+                    <span class="mob--hidden">midas</span>
+                    token
+                </strong>
+
+                <ul class="hero__info-cards info-cards">
+                    <li>
+                        <strong class="info-cards__apy">30% APY</strong>
+                        <h2 class="info-cards__title">
+                            Stake MIDAS token and earn 30% APY
+                        </h2>
+                        <a
+                            class="info-cards__link"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Read more</a
+                        >
+                    </li>
+                    <li>
+                        <svg
+                            class="info-cards__btc token"
+                            width="72"
+                            height="72"
+                        >
+                            <use href="./img/icons/icons.svg#btc"></use>
+                        </svg>
+                        <svg class="info-cards__gift" width="18" height="18">
+                            <use href="./img/icons/icons.svg#gift"></use>
+                        </svg>
+                        <svg
+                            class="info-cards__midas token"
+                            width="72"
+                            height="72"
+                        >
+                            <use href="./img/icons/icons.svg#midas"></use>
+                        </svg>
+                        <h2 class="info-cards__title">
+                            Get increased APY by getting rewards in MIDAS
+                        </h2>
+                        <a
+                            class="info-cards__link"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >How it work?</a
+                        >
+                    </li>
+                    <li>
+                        <svg class="info-cards__graph" width="300" height="126">
+                            <use href="./img/icons/decor/graph.svg"></use>
+                        </svg>
+                        <svg
+                            class="info-cards__midas--big token"
+                            width="96"
+                            height="96"
+                        >
+                            <use href="./img/icons/icons.svg#midas"></use>
+                        </svg>
+                        <h2 class="info-cards__title">
+                            Buybacks & burns supporting MIDAS growth
+                        </h2>
+                        <a
+                            class="info-cards__link"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >How it work?</a
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Metrics -->
+            <section class="container metrics">
+                <h2 class="metrics__title">Midas token metrics</h2>
+
+                <span class="metrics__number1">$0</span>
+                <span class="metrics__number2">$0</span>
+                <span class="metrics__number3">0</span>
+
+                <div class="metrics__circle">
+                    <span class="metrics__number4">$0</span>
+                </div>
+
+                <div class="metrics__cards">
+                    <div class="metrics__cards--card">
+                        <svg class="metrics__cards--img" width="60" height="57">
+                            <use href=""></use>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
